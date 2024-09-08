@@ -1,6 +1,7 @@
 name: Another Workflow
 
-on: push
+on:
+  pull_request
 
 jobs:
   workflow-job:
